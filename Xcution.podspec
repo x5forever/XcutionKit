@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
 The framework is specifically developed for Xcution team.
                        DESC
 
-  s.homepage         = 'https://github.com/x5/Xcution'
+  s.homepage         = 'https://github.com/x5forever/XcutionKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'x5' => 'wuxu1@creditease.cn' }
-  s.source           = { :git => 'https://github.com/x5/Xcution.git', :tag => 'V'+s.version.to_s }
+  s.source           = { :git => 'https://github.com/x5forever/XcutionKit', :tag => 'V'+s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
   s.static_framework  =  true
