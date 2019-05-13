@@ -15,8 +15,8 @@ The framework is specifically developed for Xcution team.
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
   s.static_framework  =  true
-  s.vendored_frameworks = 'XcutionDemo/Xcution.framework'
-  s.resources          = "XcutionDemo/Xcution.xcassets"
+  s.vendored_frameworks = 'XcutionDemo/XcutionDemo/Xcution.framework'
+  s.resources          = "XcutionDemo/XcutionDemo/Xcution.xcassets"
   s.dependency "AFNetworking"
   s.dependency "GTMBase64"
   s.dependency "DMWebView"
