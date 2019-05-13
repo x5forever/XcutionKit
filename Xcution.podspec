@@ -17,7 +17,7 @@ The framework is specifically developed for Xcution team.
   s.static_framework  =  true
   s.frameworks = "Foundation", "UIKit", "WebKit"
   s.vendored_frameworks = "XcutionDemo/XcutionDemo/Xcution.framework"
-  s.resources          = "XcutionDemo/XcutionDemo/Xcution.xcassets"
+  s.resources          = "XcutionDemo/XcutionDemo/xcution.bundle"
   s.dependency "AFNetworking"
   s.dependency "GTMBase64"
   s.dependency "DMWebView"
