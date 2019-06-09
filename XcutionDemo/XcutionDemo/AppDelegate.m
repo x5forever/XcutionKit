@@ -22,7 +22,7 @@
     self.window.backgroundColor = UIColor.whiteColor;
     self.window.rootViewController = [ViewController new];
     [self.window makeKeyAndVisible];
-    [Xcution setAppId:@"IRZGJ8E35KCC7T99" appKey:@"b0f3cd17207e4abc9f8a0c0f6ece4aae"];
+    [Xcution setAppId:@"" appKey:@""];
     return YES;
 }
 

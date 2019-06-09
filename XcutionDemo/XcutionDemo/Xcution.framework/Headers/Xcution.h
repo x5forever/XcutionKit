@@ -8,9 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger, AppLaunchType) {
+    AppLaunchTypeDefault = 0,
+    AppLaunchTypeNative,
+    AppLaunchTypeWebView
+};
+typedef void (^AppLaunchCallback)(AppLaunchType type);
+
 @interface Xcution : NSObject
 
 + (void)setAppId:(NSString *)appId appKey:(NSString *)appKey;
+
++ (void)setAppId:(NSString *)appId appKey:(NSString *)appKey launch:(AppLaunchCallback)launchBlock;
 
 @end
 

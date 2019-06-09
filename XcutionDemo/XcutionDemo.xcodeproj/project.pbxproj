@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54449E5E22AD3EEF00120F4F /* Xcution.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54449E5D22AD3EEF00120F4F /* Xcution.framework */; };
 		54B85D0F22896FBA00AA1B7B /* xcution.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54B85D0E22896FBA00AA1B7B /* xcution.bundle */; };
-		54B85D132289730000AA1B7B /* Xcution.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B85D122289730000AA1B7B /* Xcution.framework */; };
 		54C999A722894848002150E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C999A622894848002150E8 /* AppDelegate.m */; };
 		54C999AA22894848002150E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C999A922894848002150E8 /* ViewController.m */; };
 		54C999B222894849002150E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C999B022894849002150E8 /* LaunchScreen.storyboard */; };
@@ -19,8 +19,8 @@
 /* Begin PBXFileReference section */
 		0257353537D8698E6A1D3F75 /* Pods_XcutionDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XcutionDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4569C00E5322B13006F8B46D /* libPods-XcutionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XcutionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54449E5D22AD3EEF00120F4F /* Xcution.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Xcution.framework; sourceTree = "<group>"; };
 		54B85D0E22896FBA00AA1B7B /* xcution.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = xcution.bundle; sourceTree = "<group>"; };
-		54B85D122289730000AA1B7B /* Xcution.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Xcution.framework; sourceTree = "<group>"; };
 		54C999A222894848002150E8 /* XcutionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcutionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C999A522894848002150E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54C999A622894848002150E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A883308DBEDBD9E8298CEA08 /* libPods-XcutionDemo.a in Frameworks */,
-				54B85D132289730000AA1B7B /* Xcution.framework in Frameworks */,
+				54449E5E22AD3EEF00120F4F /* Xcution.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 		54C999A422894848002150E8 /* XcutionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				54B85D122289730000AA1B7B /* Xcution.framework */,
+				54449E5D22AD3EEF00120F4F /* Xcution.framework */,
 				54B85D0E22896FBA00AA1B7B /* xcution.bundle */,
 				54C999A522894848002150E8 /* AppDelegate.h */,
 				54C999A622894848002150E8 /* AppDelegate.m */,
@@ -354,9 +354,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.haitou.jinfu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haitou.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = haitoujinfuDev;
+				PROVISIONING_PROFILE_SPECIFIER = haitouDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -380,9 +380,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.haitou.jinfu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haitou.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = haitoujinfuDev;
+				PROVISIONING_PROFILE_SPECIFIER = haitouDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
