@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5484E63022BC8D480033E849 /* Xcution.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5484E62F22BC8D480033E849 /* Xcution.framework */; };
+		548E72F422BF56E50061A214 /* Xcution.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548E72F322BF56E50061A214 /* Xcution.framework */; };
 		54B85D0F22896FBA00AA1B7B /* xcution.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54B85D0E22896FBA00AA1B7B /* xcution.bundle */; };
 		54C999A722894848002150E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C999A622894848002150E8 /* AppDelegate.m */; };
 		54C999AA22894848002150E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C999A922894848002150E8 /* ViewController.m */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		0257353537D8698E6A1D3F75 /* Pods_XcutionDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XcutionDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4569C00E5322B13006F8B46D /* libPods-XcutionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XcutionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5484E62F22BC8D480033E849 /* Xcution.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Xcution.framework; sourceTree = "<group>"; };
+		548E72F322BF56E50061A214 /* Xcution.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Xcution.framework; sourceTree = "<group>"; };
 		54B85D0E22896FBA00AA1B7B /* xcution.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = xcution.bundle; sourceTree = "<group>"; };
 		54C999A222894848002150E8 /* XcutionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcutionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C999A522894848002150E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A883308DBEDBD9E8298CEA08 /* libPods-XcutionDemo.a in Frameworks */,
-				5484E63022BC8D480033E849 /* Xcution.framework in Frameworks */,
+				548E72F422BF56E50061A214 /* Xcution.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 		54C999A422894848002150E8 /* XcutionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5484E62F22BC8D480033E849 /* Xcution.framework */,
+				548E72F322BF56E50061A214 /* Xcution.framework */,
 				54B85D0E22896FBA00AA1B7B /* xcution.bundle */,
 				54C999A522894848002150E8 /* AppDelegate.h */,
 				54C999A622894848002150E8 /* AppDelegate.m */,
