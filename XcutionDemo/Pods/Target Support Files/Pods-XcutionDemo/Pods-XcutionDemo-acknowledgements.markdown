@@ -75,6 +75,14 @@ SOFTWARE.
 
 
 
+## JCore
+
+Copyright jpush.cn
+
+## JPush
+
+Copyright jiguang.cn
+
 ## NJKWebViewProgress
 
 The MIT License (MIT)

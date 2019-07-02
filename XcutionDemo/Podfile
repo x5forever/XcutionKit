@@ -5,4 +5,5 @@ target 'XcutionDemo' do
   pod 'AFNetworking'
   pod 'GTMBase64'
   pod 'DMWebView'
+  pod 'JPush'
 end

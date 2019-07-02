@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import <Xcution/JPUSHCution.h>
 #import "ViewController.h"
+#import "AppDelegate+init.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +22,7 @@
     self.window.backgroundColor = UIColor.whiteColor;
     self.window.rootViewController = [ViewController new];
     [self.window makeKeyAndVisible];
-    [JPUSHCution setAppId:@"" appKey:@""];
+    [self registerAppPushWithOption:launchOptions];
     return YES;
 }
 

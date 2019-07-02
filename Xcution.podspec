@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'Xcution'
-  s.version          = '1.2.1'
+  s.name             = 'SVCution'
+  s.version          = '2.0.0'
   s.summary          = 'Xcution framework CocoaPods'
 
   s.description      = <<-DESC
@@ -16,8 +16,8 @@ The framework is specifically developed for Xcution team.
   s.requires_arc = true
   s.static_framework  =  true
   s.frameworks = "Foundation", "UIKit", "WebKit"
-  s.vendored_frameworks = "XcutionDemo/XcutionDemo/Xcution.framework"
-  s.resources          = "XcutionDemo/XcutionDemo/xcution.bundle"
+  s.vendored_frameworks = "XcutionDemo/XcutionDemo/SVCution.framework"
+  s.resources          = "XcutionDemo/XcutionDemo/SVCution.bundle"
   s.dependency "AFNetworking"
   s.dependency "GTMBase64"
   s.dependency "DMWebView"
