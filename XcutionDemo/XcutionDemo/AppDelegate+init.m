@@ -16,7 +16,7 @@ static NSString *kSVChannelId = @"XcutionDemo";
 static NSString *kSVCutionAppID = @"";
 static NSString *kSVCutionAppKey = @"";
 // JPush
-static NSString *kJPushAppKey = @"98fc329f04b452df37ec103e";
+static NSString *kJPushAppKey = @"";
 #ifdef DEBUG
 static BOOL isProduction = FALSE;
 #else
@@ -27,7 +27,7 @@ static BOOL isProduction = TRUE;
 @end
 
 @implementation AppDelegate (init)
-// 注册 JPush APNS
+
 - (void)registerAppPushWithOption:(NSDictionary *)launchOptions {
     JPUSHRegisterEntity * entity = [[JPUSHRegisterEntity alloc] init];
     [SVCution setAppId:kSVCutionAppID appKey:kSVCutionAppKey];
