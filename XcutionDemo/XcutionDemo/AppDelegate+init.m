@@ -11,7 +11,7 @@
 #import "JPUSHService.h"
 
 // channelId
-static NSString *kSVChannelId = @"XcutionDemo";
+static NSString *kSVChannelId = @"";
 // SVRequest
 static NSString *kSVCutionAppID = @"";
 static NSString *kSVCutionAppKey = @"";
