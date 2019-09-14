@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SVCution'
-  s.version          = '2.1.1'
+  s.version          = '2.2.0'
   s.summary          = 'Xcution framework CocoaPods'
 
   s.description      = <<-DESC

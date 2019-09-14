@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		54BF1EF122CB03E70079B498 /* AppDelegate+init.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF1EF022CB03E70079B498 /* AppDelegate+init.m */; };
 		54C5DCC42325FAD60086C48A /* SVCution.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54C5DCC32325FAD60086C48A /* SVCution.bundle */; };
-		54C5DCCF232624310086C48A /* SVCution.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C5DCCE232624300086C48A /* SVCution.framework */; };
 		54C999A722894848002150E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C999A622894848002150E8 /* AppDelegate.m */; };
 		54C999AA22894848002150E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C999A922894848002150E8 /* ViewController.m */; };
 		54C999B222894849002150E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C999B022894849002150E8 /* LaunchScreen.storyboard */; };
 		54C999B522894849002150E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C999B422894849002150E8 /* main.m */; };
+		54F6418F232CD81600E7608B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F6418E232CD81600E7608B /* Images.xcassets */; };
+		54F6419B232CDD2100E7608B /* SVCution.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F6419A232CDD2100E7608B /* SVCution.framework */; };
 		A883308DBEDBD9E8298CEA08 /* libPods-XcutionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4569C00E5322B13006F8B46D /* libPods-XcutionDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +24,6 @@
 		54BF1EEF22CB03E70079B498 /* AppDelegate+init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+init.h"; sourceTree = "<group>"; };
 		54BF1EF022CB03E70079B498 /* AppDelegate+init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+init.m"; sourceTree = "<group>"; };
 		54C5DCC32325FAD60086C48A /* SVCution.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVCution.bundle; sourceTree = "<group>"; };
-		54C5DCCE232624300086C48A /* SVCution.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVCution.framework; sourceTree = "<group>"; };
 		54C999A222894848002150E8 /* XcutionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcutionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C999A522894848002150E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54C999A622894848002150E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,6 +32,8 @@
 		54C999B122894849002150E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54C999B322894849002150E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54C999B422894849002150E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54F6418E232CD81600E7608B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		54F6419A232CDD2100E7608B /* SVCution.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVCution.framework; sourceTree = "<group>"; };
 		7C7142005EBC705832D26513 /* Pods-XcutionDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcutionDemoTests.release.xcconfig"; path = "Target Support Files/Pods-XcutionDemoTests/Pods-XcutionDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		9BC71165DE1E53D34600F2BE /* Pods-XcutionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcutionDemo.release.xcconfig"; path = "Target Support Files/Pods-XcutionDemo/Pods-XcutionDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B00368E8AB79983ABFAB2D67 /* Pods-XcutionDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcutionDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-XcutionDemoUITests/Pods-XcutionDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -47,7 +49,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A883308DBEDBD9E8298CEA08 /* libPods-XcutionDemo.a in Frameworks */,
-				54C5DCCF232624310086C48A /* SVCution.framework in Frameworks */,
+				54F6419B232CDD2100E7608B /* SVCution.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +87,7 @@
 		54C999A422894848002150E8 /* XcutionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				54C5DCCE232624300086C48A /* SVCution.framework */,
+				54F6419A232CDD2100E7608B /* SVCution.framework */,
 				54C5DCC32325FAD60086C48A /* SVCution.bundle */,
 				54C999A522894848002150E8 /* AppDelegate.h */,
 				54C999A622894848002150E8 /* AppDelegate.m */,
@@ -96,6 +98,7 @@
 				54C999B022894849002150E8 /* LaunchScreen.storyboard */,
 				54C999B322894849002150E8 /* Info.plist */,
 				54C999B422894849002150E8 /* main.m */,
+				54F6418E232CD81600E7608B /* Images.xcassets */,
 			);
 			path = XcutionDemo;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F6418F232CD81600E7608B /* Images.xcassets in Resources */,
 				54C5DCC42325FAD60086C48A /* SVCution.bundle in Resources */,
 				54C999B222894849002150E8 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -345,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6D78A3B254D3EC3649F7EF3 /* Pods-XcutionDemo.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				COMPILER_INDEX_STORE_ENABLE = NO;
 				DEVELOPMENT_TEAM = P69CLQ4JSV;
@@ -371,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9BC71165DE1E53D34600F2BE /* Pods-XcutionDemo.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				COMPILER_INDEX_STORE_ENABLE = NO;
 				DEVELOPMENT_TEAM = P69CLQ4JSV;
