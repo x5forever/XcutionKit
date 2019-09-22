@@ -23,7 +23,7 @@ PODS:
     - NJKWebViewProgress/ProgressView (= 0.2.3)
   - NJKWebViewProgress/Core (0.2.3)
   - NJKWebViewProgress/ProgressView (0.2.3)
-  - SVRequest (1.0.0):
+  - SVRequest (1.0.1):
     - AFNetworking
     - GTMBase64
   - SVWebView (2.0.0):
@@ -53,7 +53,7 @@ SPEC CHECKSUMS:
   JCore: 1a426120b510cdebfd67b82bfb9483238ee09413
   JPush: 29466e5f30dbd703f640d70540e411e829cac1fa
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
-  SVRequest: 63930b9ae20f22120ece5db92f1ce37bfed00e90
+  SVRequest: 0ac86d5b03ab80467a9b885a8bb79a8665ff3e61
   SVWebView: f36f08f81266af9bd4218068040bad486d57c5c9
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
