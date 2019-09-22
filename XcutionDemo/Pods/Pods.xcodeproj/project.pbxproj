@@ -232,12 +232,11 @@
 		70BF4DA1AE56ADAABDEE1DF5265D7EB0 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		73F0536D5E4D6E8CDB4F81C003E6D27F /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		74346D481728D48EE1A0C9D195CA82B4 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
-		743C7EEFADBE097FB68B82ED8698E053 /* libjpush-ios-3.2.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.2.1.a"; sourceTree = "<group>"; };
 		7486414F8127A5C32915373DBE12C311 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		763AC178E35AC5CE9F25A1026E8DD59B /* SVWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVWebView-dummy.m"; sourceTree = "<group>"; };
 		7798ECC23E1257922BC2CF039E94228B /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		78B43C3FB6D5F73CCC78901775B7F766 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
-		7EC9B5F40382169D7E885FCE6711143C /* libjcore-ios-2.1.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.1.1.a"; sourceTree = "<group>"; };
+		7C20B7E3BC22CC1B5D05F979C5290604 /* libjcore-ios-2.1.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.1.2.a"; sourceTree = "<group>"; };
 		86F41AE5F287694106A65D4AA942BAF4 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		8789FF17FE2E1E7F54B1A82A4F8BBAEE /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		8D056D5CD44694C0E55A1BD4B4B06166 /* WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
@@ -259,6 +258,7 @@
 		B18E9FFEC894004CE3C96645FAA51BCA /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		BBCD26B70F87BFB71D1DE073B12A016F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		C3D91DD99E50D38CF409E70F5EF66879 /* Pods-XcutionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XcutionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C7B7D319EA4BF08D5B3E7062D0C25E15 /* libjpush-ios-3.2.4.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.2.4.a"; sourceTree = "<group>"; };
 		C92C7E5BDC8A20DAA3386A79A58FB4EC /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = NJKWebViewProgress/NJKWebViewProgressView.h; sourceTree = "<group>"; };
 		CDD30648DD2E6ED90E6F170F751B0B64 /* JCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCore.xcconfig; sourceTree = "<group>"; };
 		D61CA042B78957E922DCAE538617BAAF /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
@@ -440,14 +440,6 @@
 			path = NJKWebViewProgress;
 			sourceTree = "<group>";
 		};
-		5D1382E55622BFF56F0BD565C2A3B08D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				743C7EEFADBE097FB68B82ED8698E053 /* libjpush-ios-3.2.1.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		6948B46BBA5CF44F4AAFE40EB968AC9B /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -472,10 +464,10 @@
 			name = Reachability;
 			sourceTree = "<group>";
 		};
-		768918EC8CF869C7703063C2FD82D81B /* Frameworks */ = {
+		8941D302AD1BAB9E209F42C57BEF2518 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7EC9B5F40382169D7E885FCE6711143C /* libjcore-ios-2.1.1.a */,
+				C7B7D319EA4BF08D5B3E7062D0C25E15 /* libjpush-ios-3.2.4.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -483,7 +475,7 @@
 		8A055D6DC23ADF0AD86C1E1D5647B33A /* JCore */ = {
 			isa = PBXGroup;
 			children = (
-				768918EC8CF869C7703063C2FD82D81B /* Frameworks */,
+				A444292247C8E59DD3E83F7CBBD2D69C /* Frameworks */,
 				E28797500AA02D11D2A0B4027B8FDEC2 /* Support Files */,
 			);
 			name = JCore;
@@ -519,11 +511,19 @@
 			path = "Target Support Files/Pods-XcutionDemo";
 			sourceTree = "<group>";
 		};
+		A444292247C8E59DD3E83F7CBBD2D69C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C20B7E3BC22CC1B5D05F979C5290604 /* libjcore-ios-2.1.2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B425E367CFF3672EF2081D1C57C34C8F /* JPush */ = {
 			isa = PBXGroup;
 			children = (
 				A151249217DE786BC831D7951EA2654C /* JPUSHService.h */,
-				5D1382E55622BFF56F0BD565C2A3B08D /* Frameworks */,
+				8941D302AD1BAB9E209F42C57BEF2518 /* Frameworks */,
 				3605099C9C4B94F2236205560E70EEE3 /* Support Files */,
 			);
 			name = JPush;

@@ -15,8 +15,8 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - GTMBase64 (1.0.1)
-  - JCore (2.1.1)
-  - JPush (3.2.1):
+  - JCore (2.1.2)
+  - JPush (3.2.4):
     - JCore (< 3.0.0, >= 2.0.0)
   - NJKWebViewProgress (0.2.3):
     - NJKWebViewProgress/Core (= 0.2.3)
@@ -37,12 +37,11 @@ DEPENDENCIES:
   - SVWebView
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - JCore
-    - JPush
   trunk:
     - AFNetworking
     - GTMBase64
+    - JCore
+    - JPush
     - NJKWebViewProgress
     - SVRequest
     - SVWebView
@@ -51,8 +50,8 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
-  JCore: 4072327557f0b83cc22dd4041f2f839740c0077b
-  JPush: a1ff8b8ec53fa3419b414946e4db4efa313baeae
+  JCore: 1a426120b510cdebfd67b82bfb9483238ee09413
+  JPush: 29466e5f30dbd703f640d70540e411e829cac1fa
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
   SVRequest: 63930b9ae20f22120ece5db92f1ce37bfed00e90
   SVWebView: f36f08f81266af9bd4218068040bad486d57c5c9
