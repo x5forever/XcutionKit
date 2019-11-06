@@ -4,7 +4,7 @@
 //
 //  Created by x5.
 //  Copyright © 2019 x5. All rights reserved.
-//  V2.4.0 update on 2019/10/13.
+//  V2.4.1 update on 2019/11/06.
 
 #import <Foundation/Foundation.h>
 
