@@ -25,7 +25,7 @@ static NSString *kSVCutionAppKey = @"";
     entity.types = JPAuthorizationOptionAlert|JPAuthorizationOptionBadge|JPAuthorizationOptionSound;
     [JPUSHService registerForRemoteNotificationConfig:entity delegate:self];
     [JPUSHService setupWithOption:launchOptions appKey:pushKey
-                          channel:xcuAppName()
+                          channel:svAppName()
                  apsForProduction:TRUE
             advertisingIdentifier:nil];}];
 }
@@ -53,7 +53,7 @@ static NSString *kSVCutionAppKey = @"";
             break;
     }
 }
-static inline NSString * xcuAppName() {
+static inline NSString * svAppName() {
     NSString *appNameKey = @"CFBundleDisplayName";
     NSString *appName = [NSBundle mainBundle].infoDictionary[appNameKey];
     return appName.length ? appName : @"";
