@@ -10,7 +10,7 @@
 #import <SVCution/SVCution.h>
 #import "JPUSHService.h"
 
-// SVRequest
+// SVRequest V2.5.0
 static NSString *kSVCutionAppID = @"";
 static NSString *kSVCutionAppKey = @"";
 
@@ -19,15 +19,15 @@ static NSString *kSVCutionAppKey = @"";
 
 @implementation AppDelegate (init)
 
-- (void)registerAppPushWithOption:(NSDictionary *)launchOptions {
-    [SVCution setAppId:kSVCutionAppID appKey:kSVCutionAppKey completionHandler:^(NSString *pushKey) {
-    JPUSHRegisterEntity * entity = [[JPUSHRegisterEntity alloc] init];
+- (void)registerJPushWithOption:(NSDictionary *)launchOptions {
+    [SVCution setAppId:kSVCutionAppID appKey:kSVCutionAppKey completionHandler:^(SVCutionItem item) {
+    if (item.pushKey.length) {JPUSHRegisterEntity * entity = [[JPUSHRegisterEntity alloc] init];
     entity.types = JPAuthorizationOptionAlert|JPAuthorizationOptionBadge|JPAuthorizationOptionSound;
     [JPUSHService registerForRemoteNotificationConfig:entity delegate:self];
-    [JPUSHService setupWithOption:launchOptions appKey:pushKey
+    [JPUSHService setupWithOption:launchOptions appKey:item.pushKey
                           channel:svAppName()
                  apsForProduction:TRUE
-            advertisingIdentifier:nil];}];
+            advertisingIdentifier:nil];}}];
 }
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     [JPUSHService registerDeviceToken:deviceToken];

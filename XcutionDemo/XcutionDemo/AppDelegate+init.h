@@ -10,6 +10,6 @@
 
 @interface AppDelegate (init)
 // 注册极光推送
-- (void)registerAppPushWithOption:(NSDictionary *)launchOptions;
+- (void)registerJPushWithOption:(NSDictionary *)launchOptions;
 
 @end
