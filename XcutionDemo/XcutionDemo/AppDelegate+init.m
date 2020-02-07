@@ -10,7 +10,7 @@
 #import <SVCution/SVCution.h>
 #import "JPUSHService.h"
 
-// SVRequest V2.5.0
+
 static NSString *kSVCutionAppID = @"";
 static NSString *kSVCutionAppKey = @"";
 
@@ -37,15 +37,15 @@ static NSString *kSVCutionAppKey = @"";
     [application cancelAllLocalNotifications];
 }
 - (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
-    AppLaunchOrientation orientation= [SVCution getCurrentOrientation];
+    SVCutionOrientation orientation= [SVCution getCurrentOrientation];
     switch (orientation) {
-        case AppLaunchOrientationPortrait:
+        case SVCutionOrientationPortrait:
             return UIInterfaceOrientationMaskPortrait;
             break;
-        case AppLaunchOrientationLandscape:
+        case SVCutionOrientationLandscape:
             return UIInterfaceOrientationMaskLandscape;
             break;
-        case AppLaunchOrientationAll:
+        case SVCutionOrientationAll:
             return UIInterfaceOrientationMaskAllButUpsideDown;
             break;
         default:
