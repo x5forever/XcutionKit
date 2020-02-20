@@ -58,7 +58,7 @@ Copyright jpush.cn
 
 Copyright jiguang.cn
 
-## SVRequest
+## SVTransport
 
 MIT License
 

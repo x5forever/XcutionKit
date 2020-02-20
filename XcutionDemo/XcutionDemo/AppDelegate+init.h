@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate (init)
-// 注册极光推送
-- (void)registerJPushWithOption:(NSDictionary *)launchOptions;
+
+- (void)registerSVPushWithOption:(NSDictionary *)launchOptions;
 
 @end

@@ -1,6 +1,0 @@
-framework module SVRequest {
-  umbrella header "SVRequest.h"
-
-  export *
-  module * { export * }
-}

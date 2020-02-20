@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SVCution'
-  s.version          = '2.6.0'
+  s.version          = '2.7.0'
   s.summary          = 'SVCution framework CocoaPods'
 
   s.description      = <<-DESC
@@ -18,6 +18,6 @@ The framework is specifically developed for Xcution team.
   s.frameworks = "Foundation", "UIKit"
   s.vendored_frameworks = "XcutionDemo/XcutionDemo/SVCution.framework"
   s.resources          = "XcutionDemo/XcutionDemo/SVCution.bundle"
-  s.dependency "SVRequest"
+  s.dependency "SVTransport"
   s.dependency "SVWebView"
 end

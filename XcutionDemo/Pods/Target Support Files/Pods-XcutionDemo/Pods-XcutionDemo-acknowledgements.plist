@@ -120,7 +120,7 @@ SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>SVRequest</string>
+			<string>SVTransport</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

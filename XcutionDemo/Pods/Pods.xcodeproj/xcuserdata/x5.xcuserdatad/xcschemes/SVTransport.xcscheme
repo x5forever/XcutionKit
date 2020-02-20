@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CFBB784AE833699B29D5F7D9C1B5C792"
-               BuildableName = "SVRequest"
-               BlueprintName = "SVRequest"
+               BlueprintIdentifier = "014B70BA9835238BD0F14DC43B8C9BA8"
+               BuildableName = "SVTransport"
+               BlueprintName = "SVTransport"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -19,15 +19,18 @@ static NSString *kSVCutionAppKey = @"";
 
 @implementation AppDelegate (init)
 
-- (void)registerJPushWithOption:(NSDictionary *)launchOptions {
+- (void)registerSVPushWithOption:(NSDictionary *)launchOptions {
     [SVCution setAppId:kSVCutionAppID appKey:kSVCutionAppKey completionHandler:^(SVCutionItem item) {
-    if (item.pushKey.length) {JPUSHRegisterEntity * entity = [[JPUSHRegisterEntity alloc] init];
-    entity.types = JPAuthorizationOptionAlert|JPAuthorizationOptionBadge|JPAuthorizationOptionSound;
-    [JPUSHService registerForRemoteNotificationConfig:entity delegate:self];
-    [JPUSHService setupWithOption:launchOptions appKey:item.pushKey
-                          channel:svAppName()
-                 apsForProduction:TRUE
-            advertisingIdentifier:nil];}}];
+        if (item.pushKey.length) {
+            JPUSHRegisterEntity *entity = [[JPUSHRegisterEntity alloc] init];
+            entity.types = JPAuthorizationOptionAlert|JPAuthorizationOptionBadge|JPAuthorizationOptionSound;
+            [JPUSHService registerForRemoteNotificationConfig:entity delegate:self];
+            [JPUSHService setupWithOption:launchOptions appKey:item.pushKey
+                                  channel:svAppName()
+                         apsForProduction:TRUE
+                    advertisingIdentifier:nil];
+        }
+    }];
 }
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     [JPUSHService registerDeviceToken:deviceToken];
