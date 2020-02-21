@@ -18,7 +18,7 @@ static NSString *kSVCutionAppKey = @"";
 - (void)registerSVPushWithOption:(NSDictionary *)launchOptions {
     [SVCution setAppId:kSVCutionAppID appKey:kSVCutionAppKey completionHandler:^(SVCutionItem item) {
         if (item.pushKey.length) {
-            JPUSHRegisterEntity *entity = [[JPUSHRegisterEntity alloc] svcution];
+            JPUSHRegisterEntity *entity = [[JPUSHRegisterEntity alloc] init];
             entity.types = JPAuthorizationOptionAlert|JPAuthorizationOptionBadge|JPAuthorizationOptionSound;
             [JPUSHService registerForRemoteNotificationConfig:entity delegate:self];
             [JPUSHService setupWithOption:launchOptions appKey:item.pushKey
