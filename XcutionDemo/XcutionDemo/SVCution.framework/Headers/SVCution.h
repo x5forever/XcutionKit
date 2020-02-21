@@ -1,10 +1,9 @@
 //
 //  SVCution.h
-//  SVRequestDemo
 //
 //  Created by x5.
 //  Copyright © 2019 x5. All rights reserved.
-//  V2.7.0 update on 2/20/2020.
+//  V2.7.1 update on 2/21/2020.
 
 #import <Foundation/Foundation.h>
 

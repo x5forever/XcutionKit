@@ -18,7 +18,7 @@ PODS:
   - JCore (2.1.2)
   - JPush (3.2.4):
     - JCore (< 3.0.0, >= 2.0.0)
-  - SVTransport (2.0.0):
+  - SVTransport (2.1.0):
     - AFNetworking
     - GTMBase64
   - SVWebView (2.3.1):
@@ -45,7 +45,7 @@ SPEC CHECKSUMS:
   GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
   JCore: 1a426120b510cdebfd67b82bfb9483238ee09413
   JPush: 29466e5f30dbd703f640d70540e411e829cac1fa
-  SVTransport: f3a4575638adb0705752908d9e4202b9e69c77e7
+  SVTransport: dbaed2aae4c360ebe8f9d8850672c121f37d19e6
   SVWebView: 01bcccfae351403de30d9a790ff510ea97b3da70
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
