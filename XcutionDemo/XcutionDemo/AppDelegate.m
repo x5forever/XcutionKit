@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "AppDelegate+init.h"
+#import "AppDelegate+svction.h"
 
 @interface AppDelegate ()
 

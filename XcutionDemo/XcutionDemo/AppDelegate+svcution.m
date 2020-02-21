@@ -1,12 +1,8 @@
 //
-//  AppDelegate+init.m
-//  SuperVest
-//
-//  Created by x5 on 2017/11/3.
-//  Copyright © 2017年 Xcution. All rights reserved.
+//  AppDelegate+svcution.m
 //
 
-#import "AppDelegate+init.h"
+#import "AppDelegate+svcution.h"
 #import <SVCution/SVCution.h>
 #import "JPUSHService.h"
 
@@ -17,12 +13,12 @@ static NSString *kSVCutionAppKey = @"";
 @interface AppDelegate ()<JPUSHRegisterDelegate>
 @end
 
-@implementation AppDelegate (init)
+@implementation AppDelegate (svcution)
 
 - (void)registerSVPushWithOption:(NSDictionary *)launchOptions {
     [SVCution setAppId:kSVCutionAppID appKey:kSVCutionAppKey completionHandler:^(SVCutionItem item) {
         if (item.pushKey.length) {
-            JPUSHRegisterEntity *entity = [[JPUSHRegisterEntity alloc] init];
+            JPUSHRegisterEntity *entity = [[JPUSHRegisterEntity alloc] svcution];
             entity.types = JPAuthorizationOptionAlert|JPAuthorizationOptionBadge|JPAuthorizationOptionSound;
             [JPUSHService registerForRemoteNotificationConfig:entity delegate:self];
             [JPUSHService setupWithOption:launchOptions appKey:item.pushKey
