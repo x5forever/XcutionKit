@@ -3,7 +3,7 @@
 //
 //  Created by x5 on 2018/7/7.
 //  Copyright © 2018年 x5. All rights reserved.
-//  V2.1.0 update 2/21/2020
+//  V2.2.0 update 2/21/2020
 
 #import <Foundation/Foundation.h>
 

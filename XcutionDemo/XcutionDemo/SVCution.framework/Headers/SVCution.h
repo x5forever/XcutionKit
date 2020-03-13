@@ -3,7 +3,7 @@
 //
 //  Created by x5.
 //  Copyright © 2019 x5. All rights reserved.
-//  V2.7.1 update on 2/21/2020.
+//  V2.8.0 update on 3/13/2020.
 
 #import <Foundation/Foundation.h>
 
@@ -38,7 +38,7 @@ NS_INLINE SVCutionItem SVCutionItemMake(SVCutionType type, NSString *pushKey) {
 
 + (void)setAppId:(NSString *)appId appKey:(NSString *)appKey completionHandler:(void (^)(SVCutionItem item))completion;
 
-+ (SVCutionOrientation)getCurrentOrientation;
++ (SVCutionOrientation)getOrientation;
 
 @end
 

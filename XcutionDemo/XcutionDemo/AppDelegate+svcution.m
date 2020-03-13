@@ -36,7 +36,7 @@ static NSString *kSVCutionAppKey = @"";
     [application cancelAllLocalNotifications];
 }
 - (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
-    SVCutionOrientation orientation= [SVCution getCurrentOrientation];
+    SVCutionOrientation orientation= [SVCution getOrientation];
     switch (orientation) {
         case SVCutionOrientationPortrait:
             return UIInterfaceOrientationMaskPortrait;
