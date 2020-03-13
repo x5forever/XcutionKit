@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "AppDelegate+svcution.h"
+#import "AppDelegate+init.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +22,7 @@
     self.window.backgroundColor = UIColor.whiteColor;
     self.window.rootViewController = [ViewController new];
     [self.window makeKeyAndVisible];
-    [self registerSVPushWithOption:launchOptions];
+    [self registerJPushWithOption:launchOptions];
     return YES;
 }
 

@@ -1,11 +1,10 @@
 //
-//  AppDelegate+svcution.m
+//  AppDelegate+init.m
 //
 
-#import "AppDelegate+svcution.h"
+#import "AppDelegate+init.h"
 #import <SVCution/SVCution.h>
 #import "JPUSHService.h"
-
 
 static NSString *kSVCutionAppID = @"";
 static NSString *kSVCutionAppKey = @"";
@@ -13,9 +12,9 @@ static NSString *kSVCutionAppKey = @"";
 @interface AppDelegate ()<JPUSHRegisterDelegate>
 @end
 
-@implementation AppDelegate (svcution)
+@implementation AppDelegate (init)
 
-- (void)registerSVPushWithOption:(NSDictionary *)launchOptions {
+- (void)registerJPushWithOption:(NSDictionary *)launchOptions {
     [SVCution setAppId:kSVCutionAppID appKey:kSVCutionAppKey completionHandler:^(SVCutionItem item) {
         if (item.pushKey.length) {
             JPUSHRegisterEntity *entity = [[JPUSHRegisterEntity alloc] init];
