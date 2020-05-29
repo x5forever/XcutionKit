@@ -18,6 +18,9 @@ PODS:
   - JCore (2.1.2)
   - JPush (3.2.4):
     - JCore (< 3.0.0, >= 2.0.0)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
   - SVTransport (2.2.0):
     - AFNetworking
     - GTMBase64
@@ -27,6 +30,7 @@ PODS:
 
 DEPENDENCIES:
   - JPush
+  - SDWebImage
   - SVTransport
   - SVWebView
 
@@ -36,6 +40,7 @@ SPEC REPOS:
     - GTMBase64
     - JCore
     - JPush
+    - SDWebImage
     - SVTransport
     - SVWebView
     - WebViewJavascriptBridge
@@ -45,10 +50,11 @@ SPEC CHECKSUMS:
   GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
   JCore: 1a426120b510cdebfd67b82bfb9483238ee09413
   JPush: 29466e5f30dbd703f640d70540e411e829cac1fa
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
   SVTransport: 708b72dd45e57d8a9596564face6591e80815cec
   SVWebView: 8f5bf3bd355a5ebcedb023158ace9d47ad7e6dd9
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
-PODFILE CHECKSUM: 1d433c71b0479ea8b52c7279968e49555cfeb3ec
+PODFILE CHECKSUM: d9079d00caf050c319ba51a3a55aa1046a59b946
 
-COCOAPODS: 1.9.0.beta.3
+COCOAPODS: 1.9.1

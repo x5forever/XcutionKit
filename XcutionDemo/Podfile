@@ -4,5 +4,6 @@ platform :ios, '8.0'
 target 'XcutionDemo' do
   pod 'SVTransport'
   pod 'SVWebView'
+  pod 'SDWebImage'
   pod 'JPush'
 end
