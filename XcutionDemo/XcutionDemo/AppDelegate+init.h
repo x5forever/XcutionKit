@@ -3,9 +3,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import <SVCution/SVCution.h>
 @interface AppDelegate (init)
 
-- (void)registerJPushWithOption:(NSDictionary *)launchOptions;
+- (void)registerSVPushWithOption:(NSDictionary *)launchOptions;
 
 @end

@@ -3,7 +3,7 @@
 //
 //  Created by x5.
 //  Copyright © 2019 x5. All rights reserved.
-//  V2.9.0 update on 5/29/2020.
+//  V3.0.0 update on 6/16/2020.
 
 #import <Foundation/Foundation.h>
 
@@ -22,10 +22,10 @@ typedef NS_ENUM(NSInteger, SVCutionType) {
 
 typedef struct _SVCutionItem {
     SVCutionType type;
-    __unsafe_unretained NSString *pushKey;
+    __unsafe_unretained NSString * _Nullable pushKey;
 } SVCutionItem;
 
-NS_INLINE SVCutionItem SVCutionItemMake(SVCutionType type, NSString *pushKey) {
+NS_INLINE SVCutionItem SVCutionItemMake(SVCutionType type, NSString * _Nullable pushKey) {
     SVCutionItem item;
     item.type = type;
     item.pushKey = pushKey;
@@ -34,11 +34,13 @@ NS_INLINE SVCutionItem SVCutionItemMake(SVCutionType type, NSString *pushKey) {
 
 @interface SVCution : NSObject
 
-+ (void)setAppId:(NSString *)appId appKey:(NSString *)appKey __deprecated_msg("Please use 'setAppId:appKey:completionHandler:' instead");
++ (void)setAppId:(NSString * _Nonnull)appId appKey:(NSString * _Nonnull)appKey completionHandler:(void (^ _Nullable)(SVCutionItem item))completion;
 
-+ (void)setAppId:(NSString *)appId appKey:(NSString *)appKey completionHandler:(void (^)(SVCutionItem item))completion;
++ (void)registerWithAppId:(NSString * _Nonnull)appId appKey:(NSString * _Nonnull)appKey keychain:(NSString * _Nullable)keychain option:(NSDictionary * _Nonnull)launchOptions;
 
 + (SVCutionOrientation)getOrientation;
+
++ (NSString * _Nullable)format:(NSString * _Nonnull)str;
 
 @end
 

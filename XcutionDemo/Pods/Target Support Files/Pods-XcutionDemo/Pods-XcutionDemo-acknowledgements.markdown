@@ -107,7 +107,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-## SVWebView
+## SVWabView
 
 MIT License
 
@@ -132,7 +132,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-## WebViewJavascriptBridge
+## WebViewJavascriptBridge_WebKit
 
 Copyright (c) 2011-2015 Marcus Westin, Antoine Lagadec
 

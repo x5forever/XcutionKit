@@ -3,7 +3,7 @@ platform :ios, '9.0'
 
 target 'XcutionDemo' do
   pod 'SVTransport'
-  pod 'SVWebView'
+  pod 'SVWabView'
   pod 'SDWebImage'
   pod 'JPush'
 end

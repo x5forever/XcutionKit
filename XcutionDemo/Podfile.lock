@@ -24,15 +24,15 @@ PODS:
   - SVTransport (2.2.0):
     - AFNetworking
     - GTMBase64
-  - SVWebView (2.3.2):
-    - WebViewJavascriptBridge (~> 6.0.3)
-  - WebViewJavascriptBridge (6.0.3)
+  - SVWabView (3.0.0):
+    - WebViewJavascriptBridge_WebKit (~> 7.0.1)
+  - WebViewJavascriptBridge_WebKit (7.0.1)
 
 DEPENDENCIES:
   - JPush
   - SDWebImage
   - SVTransport
-  - SVWebView
+  - SVWabView
 
 SPEC REPOS:
   trunk:
@@ -42,8 +42,8 @@ SPEC REPOS:
     - JPush
     - SDWebImage
     - SVTransport
-    - SVWebView
-    - WebViewJavascriptBridge
+    - SVWabView
+    - WebViewJavascriptBridge_WebKit
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -52,9 +52,9 @@ SPEC CHECKSUMS:
   JPush: 29466e5f30dbd703f640d70540e411e829cac1fa
   SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
   SVTransport: 708b72dd45e57d8a9596564face6591e80815cec
-  SVWebView: 8f5bf3bd355a5ebcedb023158ace9d47ad7e6dd9
-  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  SVWabView: 93fb3a2f4001a07bb824573d13203572f6ebdc6e
+  WebViewJavascriptBridge_WebKit: 3fba9150bbdea8258f69db2e5f7c74e191ee94c2
 
-PODFILE CHECKSUM: 432a20b1bd2b5636e1250f2bf1f16a0b46fe034d
+PODFILE CHECKSUM: c71bcce2cdec8486870627aedabf66746613cd51
 
 COCOAPODS: 1.9.1
