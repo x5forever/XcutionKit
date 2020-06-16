@@ -16,7 +16,7 @@ The framework is specifically developed for Xcution team.
   s.requires_arc = true
   s.static_framework  =  true
   s.frameworks = "Foundation", "UIKit"
-  s.vendored_frameworks = "XcutionDemo/XcutionDemo/SVCution.framework"
+  # s.vendored_frameworks = "XcutionDemo/XcutionDemo/SVCution.framework"
   # s.resources          = "XcutionDemo/XcutionDemo/SVCution.bundle"
   s.dependency "SVTransport"
   s.dependency "SDWebImage"
